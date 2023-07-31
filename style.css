@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chela One', cursive;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+.container h1,p{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+}
+p{
+    font-size: 28px;
+}
+
+input,textarea{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    width: 80%;
+    margin: 9px auto;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.btn1{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.table11 h3{
+    width: 100%;
+    padding: auto 10px;
+
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+
+    padding: 15px;    
+    justify-content: left;
+}
